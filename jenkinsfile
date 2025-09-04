@@ -3,7 +3,7 @@ pipeline {
 stage {
    stage('checkout') {
 steps {
-git branch: 'main', url: https://github.com/naresh6672/webpage.git'
+git branch: 'main', url: 'https://github.com/naresh6672/webpage.git'
 }
 }
 stage('Deploy') {
